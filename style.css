@@ -117,3 +117,17 @@ body{
     filter: sepia();
     transform: scale(1.05);
 }
+.food{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 1px dashed rgb(218, 218, 100);
+    width:  35%;
+    box-shadow: 5px 5px 5px 5px rgb(173, 173, 173);
+    padding: 20px;
+}
+
+.food img{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
