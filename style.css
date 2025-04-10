@@ -117,3 +117,34 @@ body{
     filter: sepia();
     transform: scale(1.05);
 }
+
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(255, 255, 100, 0.3);
+    margin: 15px 0;
+    padding: 30px;
+}
+.up{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: rgb(201, 192, 60) 5px solid;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width:  30%;
+    box-shadow: 5px 5px 5px 5px rgb(173, 173, 173);
+    padding: 20px;
+}
+
+.up img{
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+.up img:hover{
+    filter: opacity(30%);
+    transform: scale(1.2);
+}
